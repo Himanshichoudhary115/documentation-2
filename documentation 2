@@ -1,0 +1,20 @@
+This project implements Dijkstra's algorithm to find the shortest path in a weighted graph. Here's a breakdown of the main components and functions:
+
+Code Structure
+dijkstra_algorithm.c: This is the main file containing the implementation of Dijkstra's algorithm.
+README.md: This file provides an overview of the algorithm, the problem it solves, and details on how to use the code.
+Key Functions
+getEdgeAndCost()
+
+This function takes input for the number of nodes, node names, and the edges with their respective costs.
+It uses numbers instead of names for nodes and ensures that each connected node pair is entered only once.
+findPath()
+
+Initializes a matrix valueParent to store the path values, parent nodes, and exploration status for each node.
+The main loop of the algorithm determines the minimum value node and updates the path values and parent nodes accordingly.
+printPath()
+
+A recursive function that prints the path from the starting node to the ending node.
+showTable()
+
+An optional function used for debugging and understanding the steps of the algorithm.
